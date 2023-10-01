@@ -1,0 +1,34 @@
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* #image-container {
+  scale: 0.5;
+} */
+
+.logo-bgcolor-forest {
+  filter: invert(36%) sepia(73%) saturate(3538%) hue-rotate(144deg)
+    brightness(93%) contrast(96%);
+}
+
+#main-descriptor span {
+  font-weight: 800;
+}
+
+.gold-gradient {
+  background: rgb(240, 188, 94);
+  background: radial-gradient(
+    circle,
+    rgba(240, 188, 94, 1) 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
+}
+
+#features-container section {
+  max-width: 300px;
+}
+
+#features-container p {
+  text-align: justify;
+  font-size: 1rem;
+}
