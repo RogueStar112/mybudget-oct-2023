@@ -28,7 +28,21 @@
   max-width: 300px;
 }
 
+.feature-container img {
+  width: 128px;
+  height: 128px;
+  margin: 0 auto;
+}
+
 #features-container p {
   text-align: justify;
   font-size: 1rem;
+}
+
+header nav img {
+  max-height: 32px;
+}
+
+.feature-container {
+  margin-top: 10px;
 }
