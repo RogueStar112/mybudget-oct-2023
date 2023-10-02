@@ -20,6 +20,8 @@ Budget Icon: https://www.flaticon.com/free-icon/budget_2719649
 
 <a href="https://www.flaticon.com/free-icons/encryption" title="encryption icons">Encryption icons created by monkik - Flaticon</a>
 
+<a href="https://www.flaticon.com/free-icons/password" title="password icons">Password icons created by th studio - Flaticon</a>
+
 ### Tools credits:
 
 CSS Gradient: https://cssgradient.io/

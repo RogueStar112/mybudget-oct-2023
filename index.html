@@ -47,9 +47,9 @@
         class="flex /bg-gradient-to-r /from-transparent /from-20% /to-90% /to-green-100"
         id="hero-container"
       >
-        <div class="flex items-center w-7/12" id="main-descriptor">
+        <div class="flex items-center w-full md:w-7/12" id="main-descriptor">
           <article id="hero-description">
-            <h1 class="text-5xl font-extrabold mb-4">
+            <h1 class="text-5xl font-extrabold mb-4 text-green-600">
               Flexible budgeting at your fingertips
             </h1>
             <p>
@@ -65,7 +65,7 @@
           </article>
         </div>
 
-        <div class="w-5/12" id="image-container">
+        <div class="none md:w-5/12" id="image-container">
           <div class="relative h-full">
             <div class="absolute top-0 right-0 w-1/4 h-1/4 gold-gradient"></div>
             <img class="" src="assets/budget.png" alt="" />
@@ -76,57 +76,99 @@
       <hr class="mt-3 border-4 border-b-orange-500" />
 
       <section class="w-full text-center mt-6">
-        <h2 class="text-5xl font-extrabold">What MyBudget offers</h2>
+        <h2 class="text-5xl font-extrabold text-green-600">
+          What MyBudget offers
+        </h2>
 
         <section
-          class="grid grid-cols-3 justify-between [&>section]:flex [&>section]:flex-col mt-6"
+          class="justify-between /[&>section]:flex /[&>section]:flex-col mt-6"
           id="features-container"
         >
-          <section class="feature-container">
-            <div class="">
-              <img src="./assets/icons/folder-management.png" alt="" />
-              <h3 class="font-extrabold text-xl">Customizable Categories</h3>
-            </div>
-            <!-- <img
+          <div class="first-row flex justify-around">
+            <section class="feature-container">
+              <div class="">
+                <img
+                  class="logo-bgcolor-forest"
+                  src="./assets/icons/folder-management.png"
+                  alt=""
+                />
+                <h3 class="font-extrabold text-lg">Customizable Categories</h3>
+              </div>
+              <!-- <img
               src="https://dummyimage.com/300x200/000/fff&text=Deep+Customization"
               alt=""
             /> -->
 
-            <p class="">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            </p>
-          </section>
+              <p class="">
+                Know exactly where your money is going, through a tailored
+                category system.
+              </p>
+            </section>
 
-          <section class="feature-container">
-            <img src="./assets/icons/bar-chart.png" alt="" />
-            <h3 class="font-extrabold text-xl">Find Budget Patterns</h3>
-            <!-- <img
+            <section class="feature-container">
+              <img
+                class="logo-bgcolor-forest"
+                src="./assets/icons/bar-chart.png"
+                alt=""
+              />
+              <h3 class="font-extrabold text-lg">Spending Patterns</h3>
+              <!-- <img
               src="https://dummyimage.com/300x200/000/fff&text=Trending+Tools"
               alt=""
             /> -->
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            </p>
-          </section>
+              <p>
+                Understand how your money fluctuates, giving you a chance to
+                prepare.
+              </p>
+            </section>
 
-          <section class="feature-container">
-            <img class="" src="./assets/icons/encryption.png" alt="" />
+            <section class="feature-container">
+              <img
+                class="logo-bgcolor-forest"
+                src="./assets/icons/encryption.png"
+                alt=""
+              />
 
-            <h3 class="font-extrabold text-md">Powerful Database Encryption</h3>
+              <h3 class="font-extrabold text-lg">
+                Powerful Database Encryption
+              </h3>
 
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            </p>
-          </section>
+              <p class="text-sm text-center">
+                Your lifestyle and money is no business to others but yourself.
+              </p>
+            </section>
+          </div>
+
+          <div class="last-row-grid flex justify-around">
+            <section class="feature-container">
+              <img
+                class="logo-bgcolor-forest"
+                src="./assets/icons/hide.png"
+                alt=""
+              />
+
+              <h3 class="font-extrabold text-lg">Privacy Settings</h3>
+
+              <p class="text-sm text-center">
+                Keep spending balances and activity as discreet or as open as
+                needed.
+              </p>
+            </section>
+
+            <section class="feature-container">
+              <img
+                class="logo-bgcolor-forest"
+                src="./assets/icons/accessibility.png"
+                alt=""
+              />
+
+              <h3 class="font-extrabold text-lg">Top-Class Accessibility</h3>
+
+              <p class="text-sm text-center">
+                Custom interface themes, easier-to-read fonts, you name it.
+              </p>
+            </section>
+          </div>
         </section>
       </section>
 
@@ -135,6 +177,10 @@
       </section>
     </main>
 
-    <footer></footer>
+    <hr class="mt-3 border-4 border-b-orange-500" />
+
+    <footer class="h-28 text-center mt-6 text-2xl">
+      &copy; MyLifeline Productions 2023
+    </footer>
   </body>
 </html>
